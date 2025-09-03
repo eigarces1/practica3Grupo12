@@ -125,6 +125,8 @@ Se eliminaron filas repetidas para evitar sesgo en el análisis.
   `IsCritical = 1` si `Incident Resolution Time (in Hours) > 100`, en caso contrario `0`.  
   *(Umbral ilustrativo para segmentar incidentes con alta complejidad/tiempo de respuesta).*
   
+  <img width="1265" height="391" alt="Captura" src="https://github.com/user-attachments/assets/161a360f-96f4-4aef-91c8-4f83b21f386f" />
+
 ---
 
 ### 8) Listo para análisis/visualización
@@ -134,6 +136,7 @@ Con el dataset depurado y enriquecido:
 - Se construyen visualizaciones geográficas (ej. **choropleth** con Plotly) sobre pérdidas económicas por país y su evolución temporal.
 
 ---
+
 
 
 
