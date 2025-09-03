@@ -1,4 +1,5 @@
 #  📊 Proyecto de Análisis de Datos 
+
 **Grupo #12**
 
 ### 👥 Integrantes  
@@ -8,11 +9,9 @@
 ---
 
 ﻿# **Practica #3**
-
-
 # 🛡️  Dataset Escogido: *Global Cybersecurity Threats (2015–2024)*  
 
-## 📌 Descripción de requisitos del Proyecto
+# 📌 Descripción de requisitos del Proyecto
 
 1. Coordinación y Repositorio Central
 Cada grupo deberá designar un/a coordinador/a, quien será responsable de crear un repositorio en GitHub que centralice el trabajo del grupo.
@@ -38,8 +37,7 @@ matplotlib
 seaborn
 plotly
 folium
-6. Documentación del Trabajo.
-
+6. Documentación del Trabajo
 El repositorio deberá incluir un archivo README.md con la siguiente información:
 
 📌 Descripción del propósito del dataset
@@ -49,3 +47,4 @@ El repositorio deberá incluir un archivo README.md con la siguiente informació
 
 
 **En el notebook incluido en esta branch llamada "Grupo#12 se realizará la practica solicitada para el proyecto.**
+
