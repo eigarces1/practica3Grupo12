@@ -27,16 +27,18 @@ El dataset seleccionado deberá ser limpiado, transformado y adaptado para su an
 4. Análisis Exploratorio de Datos (EDA)
 Se deberá realizar un análisis exploratorio detallado del dataset, identificando:
 
-Patrones
-Anomalías
-Información relevante
-5. Visualización de Datos
+-Patrones
+-Anomalías
+-Información relevante
+
+6. Visualización de Datos
 Se deben generar gráficos informativos y estéticamente atractivos utilizando herramientas como:
 
-matplotlib
-seaborn
-plotly
-folium
+- matplotlib
+- seaborn
+- plotly
+- folium
+  
 6. Documentación del Trabajo
 El repositorio deberá incluir un archivo README.md con la siguiente información:
 
@@ -47,4 +49,5 @@ El repositorio deberá incluir un archivo README.md con la siguiente informació
 
 
 **En el notebook incluido en esta branch llamada "Grupo#12 se realizará la practica solicitada para el proyecto.**
+
 
