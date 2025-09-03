@@ -87,10 +87,10 @@ Se eliminaron filas repetidas para evitar sesgo en el análisis.
 
 **Ejemplo aplicado en el notebook:**
 
-`df['Financial Loss (in Million $)'].fillna(0, inplace=True)`.
-`df['Number of Affected Users'].fillna(0, inplace=True)`.
-`df['Incident Resolution Time (in Hours)'].fillna(0, inplace=True)`.
-`df[categorical_cols] = df[categorical_cols].fillna('Unknown')`.
+- `df['Financial Loss (in Million $)'].fillna(0, inplace=True)`.
+- `df['Number of Affected Users'].fillna(0, inplace=True)`.
+- `df['Incident Resolution Time (in Hours)'].fillna(0, inplace=True)`.
+- `df[categorical_cols] = df[categorical_cols].fillna('Unknown')`.
 
 ---
 
@@ -137,6 +137,7 @@ Con el dataset depurado y enriquecido:
 - Se construyen visualizaciones geográficas (ej. **choropleth** con Plotly) sobre pérdidas económicas por país y su evolución temporal.
 
 ---
+
 
 
 
