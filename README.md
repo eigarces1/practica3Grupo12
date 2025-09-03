@@ -46,13 +46,10 @@ Este conjunto de datos ofrece una visión integral de las **amenazas cibernétic
 A continuación se detallan las etapas de preparación del dataset **Global Cybersecurity Threats (2015–2024)** que se implementan en el notebook.
 
 ### 1) Ingesta y configuración inicial
-**Objetivo:** asegurar la disponibilidad del archivo y una primera inspección de su estructura.
+**Objetivo:** Asegurar la disponibilidad del archivo y una primera inspección de su estructura.
 - Descarga del dataset desde Kaggle (vía API) y descompresión del archivo.
 - Carga en memoria con `pandas.read_csv(...)` (codificación `UTF-8`).
 - Verificación básica: `df.shape`, `df.head()`.
-
-
-
 ---
 
 ### 2) Inspección del estado del dataset
@@ -65,8 +62,6 @@ A continuación se detallan las etapas de preparación del dataset **Global Cybe
   - `Financial Loss (in Million $)`, `Number of Affected Users`,
   - `Attack Source`, `Security Vulnerability Type`, `Defense Mechanism Used`,
   - `Incident Resolution Time (in Hours)`.
-
-
 
 ---
 
@@ -92,10 +87,10 @@ Se eliminaron filas repetidas para evitar sesgo en el análisis.
 
 **Ejemplo aplicado en el notebook:**
 
-- `df['Financial Loss (in Million $)'].fillna(0, inplace=True)`.
-- `df['Number of Affected Users'].fillna(0, inplace=True)`.
-- `df['Incident Resolution Time (in Hours)'].fillna(0, inplace=True)`.
-- `df[categorical_cols] = df[categorical_cols].fillna('Unknown')`.
+`df['Financial Loss (in Million $)'].fillna(0, inplace=True)`.
+`df['Number of Affected Users'].fillna(0, inplace=True)`.
+`df['Incident Resolution Time (in Hours)'].fillna(0, inplace=True)`.
+`df[categorical_cols] = df[categorical_cols].fillna('Unknown')`.
 
 ---
 
@@ -107,22 +102,24 @@ Se eliminaron filas repetidas para evitar sesgo en el análisis.
   - `str.strip()` → elimina espacios en blanco sobrantes.
   - `str.title()` → estandariza capitalización (e.g., `phishing` → `Phishing`).
 
-- `df[col] = df[col].str.strip().str.title()`.
-
+ `df[col] = df[col].str.strip().str.title()`.
 
 ---
 
 ### 6) Asegurar tipos de datos correctos
+
+**Objetivo:** Asegurar un tipado consistente para cálculos, ordenamientos y operaciones con series temporales.
 - `Year` → `int`
 - `Financial Loss (in Million $)` → `float`
 - `Number of Affected Users` → `int`
 - `Incident Resolution Time (in Hours)` → `int`
 
-**Motivación:** tipado consistente para cálculos, ordenamientos y operaciones de series de tiempo.
-
 ---
 
 ### 7) Variables derivadas (feature engineering)
+
+**Objetivo:** Habilitar análisis de costo/impacto unitario y segmentación rápida de incidentes.
+
 - **Impacto económico por usuario afectado**:  
   `Impact Per User ($) = (Financial Loss (in Million $) * 1_000_000) / Number of Affected Users`  
   (si `Number of Affected Users == 0` → `0` para evitar división por cero).
@@ -130,9 +127,7 @@ Se eliminaron filas repetidas para evitar sesgo en el análisis.
 - **Marcador de criticidad**:  
   `IsCritical = 1` si `Incident Resolution Time (in Hours) > 100`, en caso contrario `0`.  
   *(Umbral ilustrativo para segmentar incidentes con alta complejidad/tiempo de respuesta).*
-
-**Motivación:** habilitar análisis de costo/impacto unitario y segmentación rápida de incidentes.
-
+  
 ---
 
 ### 8) Listo para análisis/visualización
@@ -142,6 +137,7 @@ Con el dataset depurado y enriquecido:
 - Se construyen visualizaciones geográficas (ej. **choropleth** con Plotly) sobre pérdidas económicas por país y su evolución temporal.
 
 ---
+
 
 
 
