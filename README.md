@@ -1,5 +1,6 @@
 
 # 📊 Clase: Tratamiento de Datos  
+
 **Grupo #12**
 
 
@@ -12,6 +13,7 @@
 ﻿**Práctica #3**
  
 # 🛡️ Informe sobre el Dataset *Global Cybersecurity Threats (2015–2024)*  
+
 
 ## 📌 Propósito del Dataset  
 El presente informe se basa en el dataset **[Global Cybersecurity Threats (2015–2024)](https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024)** disponible en *Kaggle*.  
@@ -222,7 +224,7 @@ El gráfico de dispersión revela que **no existe una correlación directa y uni
 
 ---
 
-### Conclusiones del proyecto
+### 📂 Conclusiones del proyecto
 
 El análisis exploratorio (EDA) realizado sobre el conjunto de datos de amenazas cibernéticas ha demostrado que la preparación y limpieza de datos es el primer paso y el más crucial para obtener *insights* significativos. Aunque los datos originales podían parecer confusos, la organización y visualización de la información permitieron revelar tendencias claras y cuantificables en el panorama de la ciberseguridad.
 
@@ -234,7 +236,7 @@ En resumen, este trabajo demuestra que el análisis de datos no solo permite ent
 
 ---
 
-### Referencias
+### 📂 Referencias
 
 * [**Global Cybersecurity Threats (2015-2024)**](https://www.kaggle.com/datasets/ahmedaliabdulrahman/global-cybersecurity-threats)
 * **European Parliament.** (2025, 26 de junio). Cybersecurity: main and emerging threats. Recuperado de https://www.europarl.europa.eu/topics/en/article/20220120STO21428/cybersecurity-main-and-emerging-threats
@@ -248,6 +250,7 @@ En resumen, este trabajo demuestra que el análisis de datos no solo permite ent
 * **CEPR.** (2025). Cybersecurity vulnerabilities and their financial impact. VoxEU.org. Recuperado de https://cepr.org/voxeu/columns/cybersecurity-vulnerabilities-and-their-financial-impact
 * **Agenzia Nova.** (2024, 28 de agosto). Alemania: Bitkom y los ciberataques a la economía alemana aumentan. Recuperado de https://www.agenzianova.com/es/news/germania-bitkom-aumentano-i-cyber-attacchi-alleconomia-tedesca/
 * **Bitlife Media.** (2025, 23 de junio). Una empresa centenaria alemana echa el cierre en cuestión de horas por un ciberataque. Recuperado de https://bitlifemedia.com/2025/06/empresa-centenaria-alemana-cierra-ciberataque/
+
 
 
 
