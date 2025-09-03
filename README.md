@@ -8,7 +8,7 @@
 
 ---
 
-# 📊 Practrica # 3* 
+# 📊 Practrica # 3
 
 # 🛡️  Dataset Escogido: *Global Cybersecurity Threats (2015–2024)*  
 
@@ -59,6 +59,7 @@ El repositorio deberá incluir un archivo **README.md** con:
 
 
 **En el notebook incluido en esta branch llamada "Grupo#12 se realizará la practica solicitada para el proyecto.**
+
 
 
 
