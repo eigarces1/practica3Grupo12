@@ -136,6 +136,93 @@ Con el dataset depurado y enriquecido:
 - Se construyen visualizaciones geográficas (ej. **choropleth** con Plotly) sobre pérdidas económicas por país y su evolución temporal.
 
 ---
+## 🔍 Principales Hallazgos del Análisis
+
+El análisis del conjunto de datos **Global Cybersecurity Threats (2015–2024)** reveló varias tendencias clave en el panorama de la ciberseguridad. A través de la limpieza y visualización de los datos, identificamos los tipos de ataque más comunes, los sectores industriales más vulnerables y el impacto geográfico y económico de estos incidentes.
+
+A continuación, se exponen los principales hallazgos, contextualizados con referencias de investigaciones y reportes de la industria de los últimos años.
+
+---
+
+### 1️⃣ Tipos de Ataque
+
+El análisis de los datos revela que los ciberataques más frecuentes durante el período son **Phishing**, **DDoS** y **SQL Injection**. A continuación, se detalla en qué consiste cada uno:
+
+- **Phishing**: Una técnica de ciberataque que utiliza el engaño para robar información personal y confidencial. Los atacantes se hacen pasar por una entidad legítima (como un banco o una red social) para persuadir a la víctima a que revele datos sensibles como contraseñas, números de tarjetas de crédito o credenciales de acceso.
+
+- **DDoS (Ataque de Denegación de Servicio Distribuido)**: Un ataque DDoS busca saturar un servidor, servicio o red con un tráfico masivo de peticiones desde múltiples fuentes. Su objetivo principal no es robar datos, sino hacer que el servicio deje de estar disponible para sus usuarios legítimos.
+
+- **SQL Injection (Inyección SQL)**: Una técnica de ataque a bases de datos en la que los atacantes inyectan código SQL malicioso a través de campos de entrada de un sitio web (como formularios de inicio de sesión o barras de búsqueda) para manipular la base de datos subyacente.
+
+Los hallazgos coinciden con las tendencias globales reportadas por múltiples organizaciones. Informes del Parlamento Europeo (2025) confirman que el phishing es una de las principales amenazas. Es importante considerar que otros ciberataques han evolucionado de manera significativa, como el ransomware, que ha pasado de ser un ataque que encripta datos a un modelo de extorsión de doble impacto (Positive Technologies, 2025). Además, un análisis de ResearchGate (2024) señala que el uso de malware ha sido una de las principales metodologías de ataque, responsable de hasta el 66% de los ataques exitosos contra organizaciones.
+
+*A continuación, un gráfico de barras visualiza los tipos de ataques más frecuentes.*
+
+<img width="925" height="462" alt="tipo ataque" src="https://github.com/user-attachments/assets/9ef15217-a994-4009-a56f-d9e243db3cd0" />
+
+---
+
+### 2️⃣ Sectores Industriales más Afectados
+
+Los datos analizados muestran que las industrias más atacadas son las de **Tecnología de la Información (TI)**, la **Bancaria** y la de **Salud**.
+
+- El sector de TI es un objetivo principal debido a su papel central en la infraestructura digital y el manejo de datos, según un análisis de Khairat (2025).
+
+- El sector financiero es un blanco recurrente para los ciberataques debido a su gran volumen de transacciones y datos sensibles. Un informe del FMI (2021) y otros estudios confirman que el sector financiero es uno de los más atacados por la sofisticación y el potencial de ganancias.
+
+- El sector de la salud también es un objetivo frecuente de ransomware debido al valor de los datos médicos y la urgencia de reanudar operaciones (Everbridge, s. f.), lo que lo hace particularmente vulnerable.
+
+*A continuación se muestra un gráfico de barras que evidencia que la industria de TI es la más atacada.*
+
+<img width="969" height="472" alt="industrias" src="https://github.com/user-attachments/assets/89a66842-c88c-4b8a-9e7a-b59f7b4846e5" />
+
+---
+
+### 3️⃣ Consecuencias Económicas de los Ciberataques
+
+Gracias al análisis realizado, se puede destacar que **Alemania** es el país más afectado económicamente por los ciberataques. Este hallazgo se puede contextualizar con estudios más amplios sobre el impacto financiero.
+
+- Según un informe de la asociación de la industria alemana Bitkom, los daños anuales por robo de datos, espionaje industrial y sabotaje ascendieron a **266,6 mil millones de euros en 2024**, un aumento del 29% con respecto al año anterior (Agenzia Nova, 2024).
+
+- Estos ataques tienen como objetivo principal a la economía alemana, con un enfoque en la industria manufacturera y la tecnología.
+
+- Un informe del Banco Mundial (2024) diferencia los **costos directos** (como pagos de rescate) de los **costos indirectos** (pérdida de valor de mercado, daño a la reputación e interrupción de la cadena de suministro).
+
+- Para ilustrar este impacto, un estudio de Investopedia (s. f.) encontró que las empresas afectadas por una brecha de datos experimentan una **caída de casi el 3,5% en el precio de sus acciones**, y los sectores de la salud, el financiero y el manufacturero sufren las mayores caídas.
+
+- Un ejemplo concreto del impacto devastador se observa en el caso de una empresa alemana centenaria que se vio obligada a cerrar permanentemente después de que un ciberataque paralizara por completo sus operaciones y su capacidad para generar ingresos (Bitlife Media, 2025).
+
+- Finalmente, un análisis del CEPR (2025) señala que el **costo promedio global de una filtración de datos alcanzó los 4,88 millones de dólares en 2024**.
+  
+<img width="1212" height="408" alt="impacto eco" src="https://github.com/user-attachments/assets/12a84c3f-f5d5-480c-ad5f-4210785342de" />
+
+**Mapa mundial de perdidas económicas por ciberataques**
+<img width="1194" height="444" alt="mapa" src="https://github.com/user-attachments/assets/a9a7b82b-874a-41ae-9229-988a3f182378" />
+
+
+---
+
+### 4️⃣ Relación entre Usuarios Afectados y Pérdidas Económicas
+
+El gráfico de dispersión revela que **no existe una correlación directa y uniforme** entre el número de usuarios afectados y las pérdidas económicas causadas por los ciberataques. De hecho:
+
+- **Alta dispersión de resultados**: Hay casos donde muchos usuarios están comprometidos, pero las pérdidas son moderadas. Por el contrario, un número reducido de afectados puede generar consecuencias financieras muy elevadas.
+
+- **Importancia del tipo de ataque**: Al distinguir por tipo de ataque, se observa que amenazas como ransomware o DDoS suelen producir impactos económicos altos, incluso con pocos usuarios afectados. En cambio, ataques más comunes como phishing o malware tienden a generar menos pérdidas de forma masiva.
+
+📚 *Este hallazgo está respaldado por literatura especializada:*
+
+- Shevchenko et al. (2022) encontraron que no se identifica una relación consistente entre el número de registros afectados y la magnitud del daño. Los eventos graves tienden a seguir distribuciones con colas pesadas, lo que sugiere que unos pocos incidentes generan pérdidas extraordinariamente altas.
+
+- El FMI también señala que, aunque la mayoría de las pérdidas directas por incidentes cibernéticos son modestas, algunos eventos extremos pueden alcanzar cientos de millones de dólares, representando amenazas serias para la liquidez o solvencia de las empresas.
+
+- Además, estudios como el de CybelAngel indican que en ataques tipo ransomware, los **costos promedio de recuperación —sin incluir el rescate— pueden alcanzar 1.82 M USD**, y los rescates en sí mismos suman otros millones, sin garantía de restauración completa de datos.
+
+<img width="994" height="448" alt="grafico de dispersion" src="https://github.com/user-attachments/assets/da4a368a-b468-4005-8d9a-d3a9a22fd506" />
+
+---
+
+
 
 
 
