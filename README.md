@@ -222,9 +222,32 @@ El gráfico de dispersión revela que **no existe una correlación directa y uni
 
 ---
 
+### Conclusiones del proyecto
 
+El análisis exploratorio (EDA) realizado sobre el conjunto de datos de amenazas cibernéticas ha demostrado que la preparación y limpieza de datos es el primer paso y el más crucial para obtener *insights* significativos. Aunque los datos originales podían parecer confusos, la organización y visualización de la información permitieron revelar tendencias claras y cuantificables en el panorama de la ciberseguridad.
 
+Los hallazgos clave de este análisis refuerzan que las amenazas cibernéticas no son una preocupación abstracta, sino un riesgo tangible con un impacto económico directo y a menudo devastador. La identificación de ataques predominantes como **Phishing**, **DDoS** y **SQL Injection**, y el hecho de que sectores como TI, la banca y la salud sean los más afectados, nos proporciona una hoja de ruta clara para la toma de decisiones estratégicas.
 
+Quizás el *insight* más importante es la falta de una correlación directa entre el número de usuarios afectados y las pérdidas económicas. Esto subraya que el valor de los datos comprometidos es más importante que la cantidad de personas afectadas. Para las empresas, la protección de información crítica y la implementación de defensas contra ataques de alto impacto, como el *ransomware*, son más cruciales que nunca.
+
+En resumen, este trabajo demuestra que el análisis de datos no solo permite entender el problema, sino que también ofrece un fundamento sólido para la creación de estrategias de ciberseguridad más efectivas y dirigidas.
+
+---
+
+### Referencias
+
+* [**Global Cybersecurity Threats (2015-2024)**](https://www.kaggle.com/datasets/ahmedaliabdulrahman/global-cybersecurity-threats)
+* **European Parliament.** (2025, 26 de junio). Cybersecurity: main and emerging threats. Recuperado de https://www.europarl.europa.eu/topics/en/article/20220120STO21428/cybersecurity-main-and-emerging-threats
+* **Positive Technologies.** (2025). Cybersecurity threatscape: Q4 2024 – Q1 2025. Recuperado de https://global.ptsecurity.com/en/research/analytics/cybersecurity-threatscape-q4-2024-q1-2025/
+* **ResearchGate.** (2024). The Evolution of Cybersecurity Threats and Strategies for Effective Protection. A review. Recuperado de https://www.researchgate.net/publication/385685835_The_Evolution_of_Cybersecurity_Threats_and_Strategies_for_Effective_Protection_A_review
+* **Khairat, O.** (2025). Cyber Threat Metrics & Global Impact Analysis (2015–2024). Medium. Recuperado de https://medium.com/@Khairattheanalyst/cyber-threat-metrics-global-impact-analysis-2015-2024-2f47e322eeb2
+* **International Monetary Fund (IMF).** (2021). The Global Cyber Threat to Financial Systems. Finance & Development. Recuperado de https://www.imf.org/external/pubs/ft/fandd/2021/03/global-cyber-threat-to-financial-systems-maurer.htm
+* **Everbridge.** (s. f.). The impact of cybersecurity risks on financial services. Recuperado de https://www.everbridge.com/blog/the-impact-of-cybersecurity-risks-on-financial-services/
+* **World Bank.** (2024). A Review of the Economic Costs of Cyber Incidents. Recuperado de https://documents1.worldbank.org/curated/en/099092324164536687/pdf/P17876919ffee4079180e81701969ad0a18.pdf
+* **Investopedia.** (s. f.). 10 Ways Cybercrime Impacts Business. Recuperado de https://www.investopedia.com/financial-edge/0112/3-ways-cyber-crime-impacts-business.aspx
+* **CEPR.** (2025). Cybersecurity vulnerabilities and their financial impact. VoxEU.org. Recuperado de https://cepr.org/voxeu/columns/cybersecurity-vulnerabilities-and-their-financial-impact
+* **Agenzia Nova.** (2024, 28 de agosto). Alemania: Bitkom y los ciberataques a la economía alemana aumentan. Recuperado de https://www.agenzianova.com/es/news/germania-bitkom-aumentano-i-cyber-attacchi-alleconomia-tedesca/
+* **Bitlife Media.** (2025, 23 de junio). Una empresa centenaria alemana echa el cierre en cuestión de horas por un ciberataque. Recuperado de https://bitlifemedia.com/2025/06/empresa-centenaria-alemana-cierra-ciberataque/
 
 
 
