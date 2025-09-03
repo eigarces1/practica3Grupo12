@@ -9,7 +9,7 @@
 
 ---
 
-﻿# **Practica #3**
+﻿**Práctica #3**
  
 # 🛡️ Informe sobre el Dataset *Global Cybersecurity Threats (2015–2024)*  
 
@@ -136,6 +136,7 @@ Con el dataset depurado y enriquecido:
 - Se construyen visualizaciones geográficas (ej. **choropleth** con Plotly) sobre pérdidas económicas por país y su evolución temporal.
 
 ---
+
 
 
 
