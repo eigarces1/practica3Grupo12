@@ -195,8 +195,8 @@ Gracias al análisis realizado, se puede destacar que **Alemania** es el país m
 - Un ejemplo concreto del impacto devastador se observa en el caso de una empresa alemana centenaria que se vio obligada a cerrar permanentemente después de que un ciberataque paralizara por completo sus operaciones y su capacidad para generar ingresos (Bitlife Media, 2025).
 
 - Finalmente, un análisis del CEPR (2025) señala que el **costo promedio global de una filtración de datos alcanzó los 4,88 millones de dólares en 2024**.
-- 
-A continuación se muestra un gráfico que evidencia que el país mas afectado es Alemania.
+
+*A continuación se muestra un gráfico que evidencia que el país mas afectado es Alemania.*
 
 <img width="1212" height="408" alt="impacto eco" src="https://github.com/user-attachments/assets/12a84c3f-f5d5-480c-ad5f-4210785342de" />
 
@@ -252,6 +252,7 @@ En resumen, este trabajo demuestra que el análisis de datos no solo permite ent
 * **CEPR.** (2025). Cybersecurity vulnerabilities and their financial impact. VoxEU.org. Recuperado de https://cepr.org/voxeu/columns/cybersecurity-vulnerabilities-and-their-financial-impact
 * **Agenzia Nova.** (2024, 28 de agosto). Alemania: Bitkom y los ciberataques a la economía alemana aumentan. Recuperado de https://www.agenzianova.com/es/news/germania-bitkom-aumentano-i-cyber-attacchi-alleconomia-tedesca/
 * **Bitlife Media.** (2025, 23 de junio). Una empresa centenaria alemana echa el cierre en cuestión de horas por un ciberataque. Recuperado de https://bitlifemedia.com/2025/06/empresa-centenaria-alemana-cierra-ciberataque/
+
 
 
 
